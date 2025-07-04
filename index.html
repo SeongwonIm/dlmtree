@@ -57,25 +57,18 @@
   </div>
 </nav><div class="container template-home">
 <div class="row">
-  <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header">
-<img src="logo.png" class="logo" alt=""><h1 id="dlmtree-">dlmtree 
-<a class="anchor" aria-label="anchor" href="#dlmtree-"></a>
-</h1>
-</div>
-<!-- badges: start -->
-
+  <main id="main" class="col-md-9">
 <p><code>dlmtree</code> is an R package that provides constrained distributed lag models (DLMs) using a regression tree approach within the Bayesian additive regression trees (BART) framework, referred to as treed DLMs. The package includes various extensions of treed DLMs, allowing for the incorporation of different scenarios like linear, non-linear associations, mixture exposures, and heterogeneous exposure effects. The package is built user-friendly with a single function with three arguments to specify treed DLMs. Functions for summarizing the model fit and visualization are also provided.</p>
 <div class="section level3">
 <h3 id="treed-dlm-overview">Treed DLM Overview<a class="anchor" aria-label="anchor" href="#treed-dlm-overview"></a>
 </h3>
 <table class="table">
 <colgroup>
-<col width="54%">
+<col width="57%">
 <col width="11%">
 <col width="9%">
 <col width="8%">
-<col width="14%">
+<col width="13%">
 </colgroup>
 <thead><tr class="header">
 <th align="left">Model</th>
@@ -86,7 +79,7 @@
 </tr></thead>
 <tbody>
 <tr class="odd">
-<td align="left">Treed distributed lag model (TDLM)<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>2</mn></msup><annotation encoding="application/x-tex">^2</annotation></semantics></math>
+<td align="left">Treed distributed lag model (TDLM)<sup>2</sup>
 </td>
 <td align="center">Linear</td>
 <td align="center">Gaussian</td>
@@ -108,7 +101,7 @@
 <td align="center">X</td>
 </tr>
 <tr class="even">
-<td align="left">Treed distributed lag mixture model (TDLMM)<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>2</mn></msup><annotation encoding="application/x-tex">^2</annotation></semantics></math>
+<td align="left">Treed distributed lag mixture model (TDLMM)<sup>2</sup>
 </td>
 <td align="center">Linear</td>
 <td align="center">Gaussian</td>
@@ -130,7 +123,7 @@
 <td align="center">X</td>
 </tr>
 <tr class="odd">
-<td align="left">Treed distributed non-linear lag model (TDLNM)<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mrow><mn>1</mn><mo>,</mo><mn>4</mn></mrow></msup><annotation encoding="application/x-tex">^{1,4}</annotation></semantics></math>
+<td align="left">Treed distributed non-linear lag model (TDLNM)<sup>1, 4</sup>
 </td>
 <td align="center">Non-linear</td>
 <td align="center">Gaussian</td>
@@ -159,7 +152,7 @@
 <td align="center">X</td>
 </tr>
 <tr class="odd">
-<td align="left">Heterogeneous distributed lag model (HDLM)<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi></mi><mn>3</mn></msup><annotation encoding="application/x-tex">^3</annotation></semantics></math>
+<td align="left">Heterogeneous distributed lag model (HDLM)<sup>3</sup>
 </td>
 <td align="center">Linear</td>
 <td align="center">Gaussian</td>
@@ -205,7 +198,7 @@
 <li><p>Mork, D. and Wilson, A. (In press). “Incorporating prior information into distributed lag nonlinear models with zero-inflated monotone regression trees.” <em>Bayesian Analysis</em>. (<a href="https://doi.org/10.1214/23-BA1412" class="external-link">DOI: 10.1214/23-BA1412</a>, <a href="https://arxiv.org/abs/2301.12937" class="external-link">arXiv preprint</a>)</p></li>
 </ol>
 </div>
-</div>
+
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
@@ -234,9 +227,9 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Daniel Mork <br><small class="roles"> Author, maintainer, copyright holder </small> <a href="https://orcid.org/0000-0002-7924-0706" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Seongwon Im <br><small class="roles"> Author </small> <a href="https://orcid.org/0009-0000-8447-5852" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Ander Wilson <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-4774-3883" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Daniel Mork <br><small class="roles"> Author, maintainer, copyright holder </small> <a href="https://orcid.org/0000-0002-7924-0706" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Seongwon Im <br><small class="roles"> Author </small> <a href="https://orcid.org/0009-0000-8447-5852" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Ander Wilson <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-4774-3883" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 </ul>
 </div>
 
@@ -245,7 +238,7 @@
 <ul class="list-unstyled">
 <li><a href="https://CRAN.R-project.org/package=dlmtree" class="external-link"><img src="https://www.r-pkg.org/badges/version/dlmtree" alt="CRAN status"></a></li>
 <li><a href="https://github.com/danielmork/dlmtree/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/danielmork/dlmtree/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
-<li><a href="https://cran.rstudio.com/package=dlmtree" class="external-link"><img src="https://cranlogs.r-pkg.org/badges/dlmtree" alt="Downloads"></a></li>
+<li><a href="https://CRAN.R-project.org/package=dlmtree" class="external-link"><img src="https://cranlogs.r-pkg.org/badges/grand-total/dlmtree" alt="Downloads"></a></li>
 </ul>
 </div>
 
@@ -258,7 +251,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
 </div>
 
     </footer>
