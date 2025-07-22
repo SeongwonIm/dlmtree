@@ -59,7 +59,7 @@ library(dlmtree)
 ### References
 
 
-The follows paper describes this package including syntax and examples.
+The following paper describes this package, including a high-level overview of methods, R syntax and examples.
 
 1.  Im, S., Wilson, A. and Mork, D. (In Press). “Structured Bayesian Regression Tree Models for Estimating Distributed Lag Effects: The R Package dlmtree.”
     _The R Journal_ ([arXiv preprint](https://arxiv.org/abs/2504.18452))
