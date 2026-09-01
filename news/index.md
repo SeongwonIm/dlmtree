@@ -1,5 +1,23 @@
 # Changelog
 
+## dlmtree 1.2.0
+
+CRAN release: 2026-08-04
+
+- added support for cluster random effects
+  - access by using the ‘cluster’ input into any modeling function
+- updated sampling methods in HDLM shared to sample entire trees
+  (vs. grow/prune/change)
+- added logit model support for HDLM shared
+
+bug fixes: \* issue computing cumulative effects in estDLM.R
+
+## dlmtree 1.1.1
+
+CRAN release: 2026-02-03
+
+- removed C++11 from DESCRIPTION per CRAN requirements
+
 ## dlmtree 1.1.0
 
 CRAN release: 2025-04-25

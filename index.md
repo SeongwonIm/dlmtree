@@ -12,20 +12,20 @@ and visualization are also provided.
 
 ### Treed DLM Overview
 
-| Model                                                 |    Type    |  Family  | Mixture | Heterogeneity |
-|:------------------------------------------------------|:----------:|:--------:|:-------:|:-------------:|
-| Treed distributed lag model (TDLM)²                   |   Linear   | Gaussian |    X    |       X       |
-|                                                       |            |  Binary  |    X    |       X       |
-|                                                       |            |  Count   |    X    |       X       |
-| Treed distributed lag mixture model (TDLMM)²          |   Linear   | Gaussian |    O    |       X       |
-|                                                       |            |  Binary  |    O    |       X       |
-|                                                       |            |  Count   |    O    |       X       |
-| Treed distributed non-linear lag model (TDLNM)^(1, 4) | Non-linear | Gaussian |    X    |       X       |
-|                                                       |            |  Binary  |    X    |       X       |
-|                                                       |  Monotone  | Gaussian |    X    |       X       |
-|                                                       |            |  Binary  |    X    |       X       |
-| Heterogeneous distributed lag model (HDLM)³           |   Linear   | Gaussian |    X    |       O       |
-| Heterogeneous distributed lag mixture model (HDLMM)   |   Linear   | Gaussian |    O    |       O       |
+| Model | Type | Family | Mixture | Heterogeneity |
+|:---|:--:|:--:|:--:|:--:|
+| Treed distributed lag model (TDLM)² | Linear | Gaussian | X | X |
+|  |  | Binary | X | X |
+|  |  | Count | X | X |
+| Treed distributed lag mixture model (TDLMM)² | Linear | Gaussian | O | X |
+|  |  | Binary | O | X |
+|  |  | Count | O | X |
+| Treed distributed non-linear lag model (TDLNM)^(1, 4) | Non-linear | Gaussian | X | X |
+|  |  | Binary | X | X |
+|  | Monotone | Gaussian | X | X |
+|  |  | Binary | X | X |
+| Heterogeneous distributed lag model (HDLM)³ | Linear | Gaussian | X | O |
+| Heterogeneous distributed lag mixture model (HDLMM) | Linear | Gaussian | O | O |
 
 ### Model Selection Guide
 
@@ -36,6 +36,7 @@ and visualization are also provided.
 Installing package from [GitHub](https://github.com/):
 
 ``` r
+
 # install.packages("devtools")
 devtools::install_github("danielmork/dlmtree")
 library(dlmtree)
@@ -44,6 +45,7 @@ library(dlmtree)
 Installing package from CRAN:
 
 ``` r
+
 install.packages("dlmtree")
 library(dlmtree)
 ```
